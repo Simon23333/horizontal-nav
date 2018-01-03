@@ -1,19 +1,24 @@
 * {
-  box-sizing: border-box;
+  box-sizing:inherit;
   background-color: #dbd6cf;
   line-height: 1.5;
 }
 
-body {
-  padding: 0em;
-  margin: 0em;
-  background-color: #79756f;
-  border-color: #595652;
+html {
+  box-sizing: border-box;
+  color: #595652;
   border-width: .3em;
 }
 
+body {
+  margin: 0;
+  background-color: #595652;
+  padding: .2em 0 .2em 0em;
+}
+
 h1 {
-  font-family: "Bevan", cursive;
+  font-family: 'Bevan', cursive;
+  font-size: 2rem;
   margin: 0;
   padding: 0;
   list-style-type: none;
